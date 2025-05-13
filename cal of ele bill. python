@@ -1,0 +1,18 @@
+mno=int(input())
+units=int(input())
+if units<=50:
+   bill=units*2+50
+elif units<=100:
+   bill=units*3+80
+elif units<=200:
+   bill=units*4+100
+elif units<=300:
+   bill=units*5+200
+elif units<=400:
+   bill=units*6+300
+elif units<=500:
+   bill=units*7+300
+else:
+   bill=units*12
+print(mno)
+print(bill)
