@@ -1,0 +1,13 @@
+dinu=int(input())
+if(dinu>=90):
+    print('Distinction')
+elif(dinu>=70):
+    print('First Class')
+elif(dinu>=60):
+    print('Second Class')
+elif(dinu>=50):
+    print('Third Class')
+elif(dinu>=40):
+    print('Pass')
+else:
+    print('Fail')
