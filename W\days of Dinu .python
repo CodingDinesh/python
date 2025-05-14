@@ -1,0 +1,17 @@
+dinu=int(input())
+if dinu==1:
+    print('Sunday')
+elif dinu==2:
+    print('Monday')
+elif dinu==3:
+    print('Tuesday')
+elif dinu==4:
+    print('Wednesday')
+elif dinu==5:
+    print('Thursday')
+elif dinu==6:
+    print('Friday')
+elif dinu==7:
+    print('Saturday')
+else :
+    print('Invalid')
