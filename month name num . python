@@ -1,0 +1,12 @@
+n=int(input())
+if n==1:
+    print('January')
+    print('31')
+elif n==2:
+    print('February')
+    print('28')
+elif n==12:
+    print('December')
+    print('31')
+else:
+    print('Invalid')
